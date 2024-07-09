@@ -1,0 +1,64 @@
+/*위에 광고배너*/
+.top-advertisement{
+    background-color: #eeeeee;
+
+}
+
+/*광고가 붙어있는 링크태그*/
+.top-banner-link{
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    border: 1px solid #000; /* 부모 요소의 경계를 확인하기 위해 사용 */
+}
+
+/*로고,검색창*/
+.ABC-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-box{
+    margin-left: 100px;
+}
+
+/*아이콘4개*/
+.iconfour{
+    margin-left: auto;
+}
+
+.iconbox{
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+}
+
+.search{
+    border : 1px solid black;
+    margin-left: 500px ;
+}
+.iconbox li{
+    display: flex;
+    margin: 0 10px;
+    flex-direction: column;
+}
+
+.iconbox li img{
+    width: 35px;
+    height: 25px;
+}
+
+.iconbox li span{
+    display: flex;
+    justify-content: center;
+    font-family: "Noto Serif KR", serif;
+    font-size: 10px;
+    font-style: normal;
+
+}
+
+.underline{
+    text-decoration: none;
+}
